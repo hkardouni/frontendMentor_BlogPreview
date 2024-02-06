@@ -1,0 +1,79 @@
+:root {
+    --primary-color: hsl(47, 88%, 63%);
+}
+body {
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    background: var(--primary-color);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background: white;
+    display: block;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: min-content;
+    margin: auto;
+    padding: 20px;
+    height: 450px;
+    box-shadow: 10px 10px;
+}
+
+main:hover {
+    box-shadow: 15px 15px;
+    cursor: pointer;
+}
+button {
+    background: var(--primary-color);
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-preview img{
+    border-radius: 10px;
+}
+.publish-date{
+    font-weight: 600;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+h2, a {
+    margin-bottom: 15px;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+p {
+    font-weight: 600;
+    color: grey;
+}
+
+ .publisher {
+    margin-top: 25px;
+    display: table;
+    img {
+        height: 32px;
+        width: 32px;
+    }
+
+    p {
+        color: black;
+        font-weight: 800;
+        float: right;
+        margin-left: 10px;
+    }
+}
